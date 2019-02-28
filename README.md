@@ -1,1 +1,1 @@
-# rsschool-2019Q1-cv
+[https://brilbazuka.github.io/rsschool-2019Q1-cv/cv](https://brilbazuka.github.io/rsschool-2019Q1-cv/cv)
