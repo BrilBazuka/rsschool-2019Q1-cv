@@ -1,7 +1,6 @@
 # Andrew Bril  
 
 ![My photo](https://scontent-frx5-1.cdninstagram.com/vp/919f600680c1383e5f3ed70ae5c6a92c/5D258874/t51.2885-15/e35/s320x320/21226959_114889262498496_6878356301676544000_n.jpg?_nc_ht=scontent-frx5-1.cdninstagram.com) 
-
 ## Personal information:  
   
 **Birth date**: 19.08.1995  
@@ -40,4 +39,4 @@
 
 ## Summary:  
 
-Since I got to IT sphere I was excited about development department. My main goal now is to get as much knowledge as I can from any resources to become a skilled and competitive Front-end developer at Epam. I fully understand that there are a lot of information I have to know and that language is always changing so I’m ready to work hard and to spend major of my spare time on self-education.  
+Since I got to IT sphere I had been excited about development department. My main goal now is to get as much knowledge as I can from any resources to become a skilled and competitive Front-end developer at Epam. I fully understand that there are a lot of information I have to know and that language is always changing so I’m ready to work hard and to spend major of my spare time for self-education.  
