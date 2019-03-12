@@ -133,6 +133,10 @@ header {
     margin-bottom: 20px;
 }
 
+.social ul {
+    margin-right: 10px;
+}
+
 .contacts li {
     height: 50%
 }
@@ -143,7 +147,8 @@ header {
     display: flex;
 }
 
-.education-block {
+.education-block,
+.skill-block {
     width: 30%;
     height: 300px;
     background-color: #FBFBFB;
@@ -152,6 +157,7 @@ header {
     justify-content: center;
     align-items: center;
     border-right: 1px solid #f2efef;
+    border-left: 1px solid #f2efef;
     box-sizing: border-box;
 }
 
@@ -189,4 +195,32 @@ header {
 .speciality {
     border-top: 1px solid #f2efef;
     border-bottom: 1px solid #f2efef;
+}
+
+.skill {
+    display: flex;
+}
+.skill-block {
+    border: 1px solid #f2efef;
+}
+
+.skill-info {
+    width: 70%;
+}
+
+.scale-html,
+.scale-sql {
+    background-color: #fff;
+    width: 20%;
+    height: 8px;
+    border-radius: 5px;
+    border: 1px solid #f2efef;
+}
+
+.scale-html-inner,
+.scale-sql-inner{
+    font-size: 0.8em;
+    background-color:#F9C539;
+    width: 30%;
+    height: 100%;
 }
