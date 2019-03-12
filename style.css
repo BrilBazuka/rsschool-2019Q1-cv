@@ -28,8 +28,6 @@ p.description {
   font-style: italic;
 }
 
-/* ! Header styling */
-
 h1 {
   font-size: 2em;
 }
@@ -42,7 +40,7 @@ h1 {
 body {
   max-width: 1024px;
   margin: 0 auto;
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather", "Georgia", serif;
 }
 
 header {
@@ -140,8 +138,6 @@ header {
 .contacts li {
   height: 50%;
 }
-
-/* ! Main styling */
 
 .education {
   display: flex;
@@ -252,8 +248,6 @@ header {
   box-sizing: border-box;
   border-top: 1px solid #f2efef;
 }
-
-/* ! Footer styling */
 
 footer {
   display: flex;
