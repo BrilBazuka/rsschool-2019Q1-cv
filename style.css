@@ -16,6 +16,20 @@ li {
     list-style: none;
 }
 
+.bold {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+p.description {
+    font-size: 0.7em;
+    color: #B9B3AD;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* ! Header styling */
+
 h1 {
     font-size: 2em;
 }
@@ -42,28 +56,38 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #f2efef;
+    box-sizing: border-box;
 }
 
 .photo {
     width: 200px;
     height: 200px;
     background-image: url('assets/My_photo.jpg');
-    background-position-x: 40%;
+    background-position-x: 42%;
     border-radius: 100%;
 }
 
 .info {
     width: 70%;
     height: 500px;
-    background-color: #FFFFFF;
+    background-color:#fff;
     display: flex;
     flex-direction: column;
+}
+
+.contacts li p:first-child {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .wrapper-1 {
     width: 100%;
     height:80%;
     display: flex;
+    border-right: 1px solid #f2efef;
+    border-bottom: 1px solid #f2efef;
+    box-sizing: border-box;
 }
 
 .name {
@@ -92,7 +116,9 @@ header {
     height: 20%;
     display: flex;
     justify-content: center;
-    border-left: 1px solid #f2efef;
+    border-bottom: 1px solid #f2efef;
+    border-right: 1px solid #f2efef;
+    box-sizing: border-box;
 }
 
 .contacts ul {
@@ -103,7 +129,7 @@ header {
 }
 
 .social li {
-    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 20px;
 }
 
@@ -111,13 +137,56 @@ header {
     height: 50%
 }
 
-.contacts li p:first-child {
-    font-size: 0.9em;
-    font-weight: bold;
-    margin-bottom: 15px;
+/* ! Main styling */
+
+.education {
+    display: flex;
 }
 
-.contacts li p:last-child {
-    font-size: 0.8em;
-    font-style: italic;
+.education-block {
+    width: 30%;
+    height: 300px;
+    background-color: #FBFBFB;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #f2efef;
+    box-sizing: border-box;
+}
+
+.education-info {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.establishment {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 1.7em;
+    border-right: 1px solid #f2efef;
+    box-sizing: border-box;
+}
+
+.speciality,
+.degree,
+.years {
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 1.5em;
+    border-right: 1px solid #f2efef;
+    box-sizing: border-box;
+}
+
+.speciality,
+.years {
+    background-color: #FBFBFB;
+}
+
+.speciality {
+    border-top: 1px solid #f2efef;
+    border-bottom: 1px solid #f2efef;
 }
